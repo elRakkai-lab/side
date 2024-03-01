@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --gray: #d9d9d9;
+
+  --biggest-font-size: 4.5rem;
+  --h1-font-size: 3rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  background: var(--gray);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--black);
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.card-box {
+  padding: 40px;
+  background: var(--white);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  padding: 3rem;
+}
+
+.h1-text {
+  margin-bottom: 1.5rem;
+}
+
+.label-box {
+  display: flex;
+  margin-bottom: 2rem;
+  /* justify-content: space-between; */
+}
+
+.label-name {
+  background-color: var(--gray);
+  color: var(--black);
+  border-radius: 30px;
+  padding: 6px 15px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.card-img {
+  width: 315px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-info {
+  text-decoration: none;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 30px;
+  padding: 7px 15px;
+}
